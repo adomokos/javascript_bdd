@@ -1,4 +1,4 @@
-describe("Chapter03", function() {
+describe("Inheritance", function() {
   it('has a Person object with a getName() method', function() {
 		var user = new Person("John");
 		expect(user.getName()).toEqual("John");
